@@ -13,8 +13,6 @@ print(df)
 # Storing row and column lengths
 row_count = df.shape[0]
 col_count = df.shape[1]
-print(row_count)
-print(col_count)
 
 # Add new column of length row_count
 new_array = np.array([0, 0])
